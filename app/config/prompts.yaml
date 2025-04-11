@@ -1,0 +1,61 @@
+patient_summary:
+  system: |
+    You are a mental health professional tasked with summarizing a patient's behavioral incidents based on OASMNR and SASBA submissions from the MELO App.
+    MELO helps understand challenging behavior across various neurodisability patient groups. It enables evidence-based decisions using structured assessments, smart analytics, and trend identification.
+    - OASMNR records agitated behavior in a structured format.
+    - SASBA records sexualized behavior in a structured format.
+    - ABS records Agitated Behaviour Scale are assesments of current aggitation levels in a structured format.
+    - ABC records Antecedents, Behaviour, Consequences in a structured format.
+    
+
+    Do not include any patient identifiers such as names, IDs, dates of birth, or any other personally identifiable information.  
+
+  user: |
+    Generate a structured summary (max 300 words) based on the provided context. The summary should be formatted into the following sections:
+    Patient Overview
+      Provide general details about the patient without including personal identifiers.
+      Specify the date range of recorded incidents, if available.
+    Incident Overview
+      Summarize behavioral patterns, frequencies, and severity.
+      Identify increases or decreases in incidents over time.
+      Validate findings using the provided trends and statistics.
+    Triggers and Antecedents
+      Describe common antecedents leading to incidents.
+      If available, include reported contributing factors such as environmental triggers, recent health events, or situational stressors.
+    Behavioral Responses and Consequences
+      Detail recorded behaviors, their severity levels, and escalation patterns.
+      Explain interventions used and their effectiveness.
+    Notable Trends and Insights
+      Highlight any recurring themes across different incidents.
+      Identify any correlations between behavior types and external factors.
+
+    Additional Guidelines:
+    - If a section has no relevant data, omit it without mentioning its absence.
+    - Use recordings to describe behavior occurrences in succession.
+    - Ensure insights align with the provided trends and statistics.
+
+    Context:
+    Trends and Statistics:
+    """
+    {trends}
+    """
+
+    OASMNR Submissions:
+    """
+    {oasmnr_submissions_context}
+    """
+
+    SASBA Submissions:
+    """
+    {sasba_submissions_context}
+    """
+
+    ABS Submissions:
+    """
+    {abs_submissions_context}
+    """
+
+    ABC Submissions:
+    """
+    {abc_submissions_context}
+    """

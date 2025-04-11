@@ -1,0 +1,63 @@
+{
+    "behaviour_map": {
+        "VA": "Verbal Aggression",
+        "PO": "Physical Aggression against Objects",
+        "PS": "Physical Aggression against Self",
+        "PP": "Physical Aggression against Other People",
+        "VC": "Verbal comments",
+        "NC": "Non-contact",
+        "E": "Exposure",
+        "TO": "Touching others"
+    },
+    "antecedent_map": {
+        "11": "Given direct verbal prompt to comply with instruction",
+        "12": "Given verbal guidance/advice to assist completion of task/activity",
+        "13": "Given verbal/visual feedback about performance",
+        "14": "Direct response to other clients' verbal behaviour",
+        "15": "Request specifically denied by other person",
+        "16": "Any other verbal interaction",
+        "17": "Physical guidance/facilitation to complete a task",
+        "18": "Direct response to other clients' physically aggressive behaviour when directed at them",
+        "19": "Direct response to other clients' physically aggressive behaviour when directed at another person",
+        "20": "During restraint",
+        "21": "Given item e.g. food/therapy materials",
+        "22": "Purposeful behaviour is ignored or \"played down\" by person to whom it is directed at",
+        "23": "Obviously agitated or distressed",
+        "24": "No obvious antecedent",
+        "25": "Other"
+    },
+    "contributing_factors_map": {
+        "StructuredActivity": "Structured activity",
+        "NoisyEnvironment": "Noisy environment",
+        "RecentEpilepticFit": "Had epileptic fit in last 24 hrs"
+    },
+    "intervention_map": {
+        "A": "Aggression ignored or 'played down' completely",
+        "B": "Talking to patient including prompts",
+        "C": "Closer observation",
+        "D": "Holding patient (physical restraint)",
+        "E": "Immediate medication given by mouth",
+        "F": "Immediate medication given by injection",
+        "G": "Isolation without seclusion",
+        "H": "Seclusion",
+        "I": "Activity distraction",
+        "J": "Injury requires immediate medical treatment for patient",
+        "K": "Injury requires immediate medical treatment for other",
+        "L": "Special programme",
+        "M": "Physical distraction (leading the patient away)",
+        "N": "Other"
+    },
+    "abc_severity_map": {
+        "1": "Absent / near miss",
+        "2": "Low",
+        "3": "Moderate",
+        "4": "Severe"
+    },
+    "abs_scale_map": {
+        "4": "extreme",
+        "3": "moderate",
+        "2": "slight", 
+        "1": "absent",
+        "0": "not_applicable"
+    }
+}

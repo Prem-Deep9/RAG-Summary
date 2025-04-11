@@ -1,0 +1,25 @@
+# Exclude virtual environments
+.venv/
+env/
+venv/
+
+# Exclude Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude Docker build files
+Dockerfile
+.dockerignore
+
+# Exclude Git files
+.git
+.gitignore
+
+# Exclude environment variables
+.env
+*.env
+
+# Exclude tests
+tests/
