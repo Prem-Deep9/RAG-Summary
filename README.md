@@ -1,4 +1,4 @@
-# melo-ai-generated-summaries
+# ai-generated-summaries
 
 1. Install Python on your machine
    - Download and install from [python.org](https://python.org)
